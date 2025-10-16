@@ -16,7 +16,7 @@ export default class DifyModel extends BaseModel {
       requestModel,
       requestAuthorization,
       [],                         // 先传空消息，后面在 formatBody 里再拼
-      'https://api.dify.ai/v1/chat-messages'
+      'http://43.136.77.254/v1'
     );
   }
 
